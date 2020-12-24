@@ -17,9 +17,13 @@ async function f() {
   console.log(b)
   Object.assign(a, b)
   console.log(a)
+  return 'R'
 }
 
 f()
+  .then(data => {
+    console.log(data)
+  })
 
 
 
