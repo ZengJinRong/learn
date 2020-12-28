@@ -39,3 +39,14 @@
 // console.log(parseInt("-.18%"))
 // console.log(parseInt(parseFloat("-.18%")))
 
+const obj = {
+  val: 'b',
+}
+
+function a(val) {
+  val = 'a'
+}
+
+a(obj['val'])
+
+console.log(obj)
