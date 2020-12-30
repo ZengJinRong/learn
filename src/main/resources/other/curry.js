@@ -10,7 +10,6 @@ function curry(func) {
   }
 }
 
-
 function sum(a, b, c) {
   return a + b + c
 }
